@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PasswordManager</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="appName">Passc0d3 P1z</string>
+    <string name="loginButton">Login</string>
+    <string name="register">OR CREATE AN ACCOUNT</string>
+    <string name="second_page">Welcome!</string>
+    <string name="register_page">Register</string>
+</resources>
