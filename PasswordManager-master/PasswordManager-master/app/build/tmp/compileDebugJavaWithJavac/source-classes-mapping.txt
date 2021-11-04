@@ -1,0 +1,10 @@
+com/example/passwordmanager/NewUserRegistration.java
+ com.example.passwordmanager.NewUserRegistration
+com/example/passwordmanager/BuildConfig.java
+ com.example.passwordmanager.BuildConfig
+com/example/passwordmanager/SecondActivity.java
+ com.example.passwordmanager.SecondActivity
+ com.example.passwordmanager.SecondActivity$1
+ com.example.passwordmanager.SecondActivity$2
+com/example/passwordmanager/MainActivity.java
+ com.example.passwordmanager.MainActivity
