@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText username, password;
     private Button login;
     SharedPreferences sharedPreferences;
-
+    
+    
+    //name of shared preferences file
     public static final String mypreference ="mypref";
 
     @Override
@@ -30,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
 
         login = (Button)findViewById(R.id.login);
-        //instantiating shared preferences
+        //setting shared preferences
         sharedPreferences = getSharedPreferences(mypreference, Context.MODE_PRIVATE);
         if(sharedPreferences.contains(String.valueOf(username)))
         {
@@ -42,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void validate(View view) {
+    /*
+        //validate info from login button
+        public void validate(View view) {
 
         String name = username.getText().toString();
         String passwd= password.getText().toString();
@@ -51,12 +55,13 @@ public class MainActivity extends AppCompatActivity {
         editor.putString(String.valueOf(password),passwd);
         editor.commit();
 
-        if(name.equals("Zaina") || passwd.equals("gohome")){
+        /*if(name.equals("Z") || passwd.equals("gohome")){
             Intent intent = new Intent(this, MainActivity.class);
         }else{
             Toast.makeText(this, "Password/Username incorrect", Toast.LENGTH_SHORT).show();
         }
-    }
+    }*/
+    //Get shared preferences data
     public void Get(View view)
     {
         username = (EditText) findViewById(R.id.username);
