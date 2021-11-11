@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Yil\\AndroidStudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yil\\.gradle\\caches\\transforms-3\\81808270a5cc0559f2b9db87cb315b87\\transformed\\constraintlayout-2.1.1\\res\\values\\values.xml",
@@ -95,7 +95,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yil\\AndroidStudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\Yil\\.gradle\\caches\\transforms-3\\467a835b52a179222c9cd595c4b15361\\transformed\\jetified-savedstate-1.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    },
+                    "to": {
+                        "startLines": "1152",
+                        "startColumns": "4",
+                        "startOffsets": "65763",
+                        "endColumns": "53",
+                        "endOffsets": "65812"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -114,20 +131,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yil\\.gradle\\caches\\transforms-3\\467a835b52a179222c9cd595c4b15361\\transformed\\jetified-savedstate-1.1.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "53",
-                        "endOffsets": "104"
+                        "startLines": "7,3,2,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "288,105,57,150,196,242,331",
+                        "endColumns": "41,43,46,44,44,44,41",
+                        "endOffsets": "325,144,99,190,236,282,368"
                     },
                     "to": {
-                        "startLines": "1152",
-                        "startColumns": "4",
-                        "startOffsets": "65763",
-                        "endColumns": "53",
-                        "endOffsets": "65812"
+                        "startLines": "519,532,608,609,620,621,624",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "24879,25811,30916,30963,31705,31750,31916",
+                        "endColumns": "41,43,46,44,44,44,41",
+                        "endOffsets": "24916,25850,30958,31003,31745,31790,31953"
                     }
                 },
                 {
@@ -188,7 +205,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yil\\AndroidStudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "4,1,5,3,6,8,7,2",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -221,23 +238,6 @@
                         "endLines": "59,528,529,530,531,708,709,710,1353,3329,3332,3335,6202",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "2600,25618,25680,25742,25806,37573,37630,37684,86260,216158,216284,216412,396776"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Yil\\AndroidStudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,3,2,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "288,105,57,150,196,242,331",
-                        "endColumns": "41,43,46,44,44,44,41",
-                        "endOffsets": "325,144,99,190,236,282,368"
-                    },
-                    "to": {
-                        "startLines": "519,532,608,609,620,621,624",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "24879,25811,30916,30963,31705,31750,31916",
-                        "endColumns": "41,43,46,44,44,44,41",
-                        "endOffsets": "24916,25850,30958,31003,31745,31790,31953"
                     }
                 },
                 {

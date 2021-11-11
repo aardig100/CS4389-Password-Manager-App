@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Yil\\AndroidStudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
+            "outputFile": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yil\\.gradle\\caches\\transforms-3\\ed1545082359e467d3fc398667877e1b\\transformed\\biometric-1.0.1\\res\\values-el\\values-el.xml",
