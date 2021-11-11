@@ -3,3 +3,9 @@
 Made to run on Android version 4.2+
 
 Created using the latest version of Android Studio API 17
+
+
+
+To run download .apk file and launch it on an android device or emulator.
+
+master Project can be opened using android studio.
