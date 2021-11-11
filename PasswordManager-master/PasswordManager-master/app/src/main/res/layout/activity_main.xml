@@ -7,7 +7,7 @@
     android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
-
+    <!-- Show username text box -->
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
@@ -27,8 +27,7 @@
         app:layout_constraintVertical_bias="0.395"
         tools:ignore="TextContrastCheck" />
 
-
-
+    <!-- show app name -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -44,6 +43,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
 
+    <!-- create login button -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="300dp"
@@ -62,6 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <!-- "Login" text in button -->
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
@@ -78,6 +79,7 @@
 
     </androidx.cardview.widget.CardView>
 
+    <!-- create account text -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
