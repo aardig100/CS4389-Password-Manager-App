@@ -24,6 +24,10 @@
         "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\layout\\activity_third.xml"
+    },
+    {
         "merged": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\merged_res\\debug\\layout_item.xml.flat",
+        "source": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\src\\main\\res\\layout\\item.xml"
     },
     {
         "merged": "C:\\Users\\Yil\\StudioProjects\\CS4389-Password-Manager-App\\PasswordManager-master\\PasswordManager-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",

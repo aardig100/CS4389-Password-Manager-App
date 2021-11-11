@@ -1,7 +1,11 @@
 package com.example.passwordmanager;
 
+import androidx.biometric.BiometricManager;
 import androidx.biometric.BiometricPrompt;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -18,20 +22,22 @@ public class SecondActivity extends AppCompatActivity {
     //UI Views
     private TextView authStatusTv;
     private Button authBtn;
-
     private Executor exec;
     private BiometricPrompt biometricPrompt;
     private BiometricPrompt.PromptInfo promptInfo;
+    private Context context;
+    //Attempting to find a way to direct to another page.
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
+
         //init UI view
         authStatusTv = findViewById(R.id.authStatusTv);
         authBtn = findViewById(R.id.authBtn);
-
         //init biometric
         exec = ContextCompat.getMainExecutor(this);
         biometricPrompt = new BiometricPrompt(SecondActivity.this, exec, new BiometricPrompt.AuthenticationCallback(){
@@ -47,6 +53,8 @@ public class SecondActivity extends AppCompatActivity {
                 super.onAuthenticationSucceeded(result);
                 authStatusTv.setText("Authentication Successful");
                 Toast.makeText(SecondActivity.this, "Authentication Success!", Toast.LENGTH_SHORT).show();
+
+                startActivity(new Intent(SecondActivity.this, MainBody.class));
             }
 
             @Override
@@ -71,5 +79,7 @@ public class SecondActivity extends AppCompatActivity {
                 biometricPrompt.authenticate(promptInfo);
             }
         });
+
+
     }
 }
