@@ -1,3 +1,5 @@
+com/example/passwordmanager/items.java
+ com.example.passwordmanager.items
 com/example/passwordmanager/NewUserRegistration.java
  com.example.passwordmanager.NewUserRegistration
 com/example/passwordmanager/BuildConfig.java
