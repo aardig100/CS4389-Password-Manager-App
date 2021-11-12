@@ -2,6 +2,8 @@ package com.example.passwordmanager;
 
 import androidx.biometric.BiometricPrompt;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -47,6 +49,10 @@ public class SecondActivity extends AppCompatActivity {
                 super.onAuthenticationSucceeded(result);
                 authStatusTv.setText("Authentication Successful");
                 Toast.makeText(SecondActivity.this, "Authentication Success!", Toast.LENGTH_SHORT).show();
+
+                //open items page
+                Intent intent = new Intent(SecondActivity.this, items.class);
+                startActivity(intent);
             }
 
             @Override
