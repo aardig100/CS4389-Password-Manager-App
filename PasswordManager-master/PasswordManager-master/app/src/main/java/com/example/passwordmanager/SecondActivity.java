@@ -10,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.concurrent.Executor;
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import android.os.Bundle;
@@ -51,7 +50,7 @@ public class SecondActivity extends AppCompatActivity {
                 Toast.makeText(SecondActivity.this, "Authentication Success!", Toast.LENGTH_SHORT).show();
 
                 //open items page
-                Intent intent = new Intent(SecondActivity.this, items.class);
+                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
                 startActivity(intent);
             }
 

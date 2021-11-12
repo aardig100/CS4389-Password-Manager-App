@@ -1933,9 +1933,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
-id button2
-id button3
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1980,6 +1977,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2034,6 +2032,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id frost
+id generate
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2044,6 +2043,7 @@ id grouping
 id groups
 id guideline
 id header_title
+id health
 id hideable
 id home
 id homeAsUp
@@ -2170,6 +2170,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2384,6 +2385,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_new_user_registration
 layout activity_second
+layout activity_third
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

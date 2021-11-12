@@ -22,7 +22,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.PasswordManager" >
         <activity
-            android:name="com.example.passwordmanager.items"
+            android:name="com.example.passwordmanager.ThirdActivity"
             android:exported="true" />
         <activity
             android:name="com.example.passwordmanager.NewUserRegistration"
