@@ -42,6 +42,7 @@ class recycler extends RecyclerView.ViewHolder{
     TextView textView;
     TextView generator;
     TextView healthCheck;
+    String password ="";
     private Items adapter;
 
     public recycler(@NonNull View itemView) {
@@ -55,14 +56,14 @@ class recycler extends RecyclerView.ViewHolder{
         itemView.findViewById(R.id.generate).setOnClickListener(view -> {
             RandomGen random = new RandomGen();
             String newPass = random.generateRandom();
+            password = newPass;
             generator.setText(newPass);
         });
 
         //checkhealth
         itemView.findViewById(R.id.health).setOnClickListener(view -> {
             healthScore h = new healthScore();
-            String s = "Ferr@rizzz";
-            String h2 = h.calculateHealth(s);
+            String h2 = h.calculateHealth(password);
             healthCheck.setText(h2);
         });
 

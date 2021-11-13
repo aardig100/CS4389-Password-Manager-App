@@ -4,9 +4,9 @@ public class healthScore {
     public static void main(String[] args) {
 
         //test password
-        String password = "Ferr@rizzz";
+        //String password = "Ferr@rizzz";
 
-        System.out.print(calculateHealth(password));
+        //System.out.print(calculateHealth(password));
 
     }
 
