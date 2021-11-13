@@ -5,8 +5,15 @@ import java.util.ArrayList;
 
 public class RandomGen {
 
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
+    String passwdStr = "";
+
+    public RandomGen(){
+        this.passwdStr = generatePassword(passwdStr);
+    }
+
+    public String getPasswdStr() {return passwdStr;}
+
+    public String generatePassword(String passwdStr) {
 
         ArrayList<String> charGroup = new ArrayList<>();
         charGroup.add(0, "abcdefghijklmnopqrstuvxyz");
@@ -16,8 +23,6 @@ public class RandomGen {
 
         int passwordLength = 24; //If this value is already set somewhere else in
         //the app, pull it/call it from that somewhere else
-        StringBuilder passwdStr = new StringBuilder();
-
 
         int[] checkPlace = new int[passwordLength];
 
@@ -31,15 +36,13 @@ public class RandomGen {
             char randChar = randGroup.charAt(randomNum(randGroup.length()));
             System.out.println("randChar: " + randChar);
 
-            passwdStr.append(randChar);
+            passwdStr = passwdStr + randChar;
         }
 
-        // passwdStr is the randomized password. Use that variable for the app
-
-
+        return passwdStr;
     }
 
-    public static int randomNum(int upperBound) {
+    public int randomNum(int upperBound) {
 
         //SecureRandom uses a Crytpographically Secured P-RNG
         SecureRandom secureRandom = new SecureRandom();
