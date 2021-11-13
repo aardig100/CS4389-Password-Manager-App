@@ -14,20 +14,20 @@
         android:layout_width="395dp"
         android:layout_height="162dp">
 
-        <TextView
+        <EditText
             android:id="@+id/text"
             android:layout_width="172dp"
-            android:layout_height="20dp"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
+        <EditText
             android:id="@+id/password"
             android:layout_width="260dp"
-            android:layout_height="17dp"
+            android:layout_height="48dp"
             android:password="false"
             android:text="password"
             android:visibility="visible"
@@ -36,7 +36,7 @@
             app:layout_constraintHorizontal_bias="0.118"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.715" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/generate"
