@@ -24,8 +24,10 @@ public class Items extends RecyclerView.Adapter<recycler> {
     public recycler onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.items, parent, false);
+
         return new recycler(view).linkAdapter(this);
     }
+
 
     @Override
     public void onBindViewHolder(@NonNull recycler holder, int position) {
@@ -43,6 +45,7 @@ class recycler extends RecyclerView.ViewHolder{
     TextView generator;
     TextView healthCheck;
     String password ="";
+
     private Items adapter;
 
     public recycler(@NonNull View itemView) {
@@ -55,7 +58,7 @@ class recycler extends RecyclerView.ViewHolder{
         //generate
         itemView.findViewById(R.id.generate).setOnClickListener(view -> {
             RandomGen random = new RandomGen();
-            String newPass = random.generateRandom();
+            String newPass = random.getPasswdStr();
             password = newPass;
             generator.setText(newPass);
         });
@@ -63,6 +66,7 @@ class recycler extends RecyclerView.ViewHolder{
         //checkhealth
         itemView.findViewById(R.id.health).setOnClickListener(view -> {
             healthScore h = new healthScore();
+            password = generator.getText().toString();
             String h2 = h.calculateHealth(password);
             healthCheck.setText(h2);
         });
@@ -71,6 +75,8 @@ class recycler extends RecyclerView.ViewHolder{
         itemView.findViewById(R.id.delete).setOnClickListener(view -> {
             adapter.items.remove(getAdapterPosition());
             adapter.notifyItemRemoved(getAdapterPosition());
+            generator.setText("password");
+            healthCheck.setText("Health");
         });
     }
 

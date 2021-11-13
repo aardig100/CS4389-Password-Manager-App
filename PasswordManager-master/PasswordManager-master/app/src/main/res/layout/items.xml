@@ -26,21 +26,20 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.697" />
 
-        <TextView
+        <EditText
             android:id="@+id/text"
             android:layout_width="172dp"
-            android:layout_height="20dp"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
+        <EditText
             android:id="@+id/password"
             android:layout_width="260dp"
-            android:layout_height="17dp"
-            android:password="false"
+            android:layout_height="48dp"
             android:text="password"
             android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/health"
@@ -48,7 +47,7 @@
             app:layout_constraintHorizontal_bias="0.118"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.715" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/generate"
@@ -73,7 +72,7 @@
             app:layout_constraintHorizontal_bias="0.646"
             app:layout_constraintStart_toEndOf="@+id/generate"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.921" />
+            app:layout_constraintVertical_bias="0.938" />
 
         <Button
             android:id="@+id/health"
@@ -82,10 +81,10 @@
             android:text="Health"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/delete"
-            app:layout_constraintHorizontal_bias="0.389"
+            app:layout_constraintHorizontal_bias="0.469"
             app:layout_constraintStart_toEndOf="@+id/generate"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.921" />
+            app:layout_constraintVertical_bias="0.938" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

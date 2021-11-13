@@ -19,7 +19,7 @@ public class ThirdActivity extends AppCompatActivity {
         setContentView(R.layout.activity_third);
 
         List<String> items = new LinkedList<>();
-        items.add("Code it");
+        items.add("this it");
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
