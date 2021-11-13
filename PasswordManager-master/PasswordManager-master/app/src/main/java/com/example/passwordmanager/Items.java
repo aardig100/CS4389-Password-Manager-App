@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+import java.util.Random;
 
 public class Items extends RecyclerView.Adapter<recycler> {
 
@@ -39,12 +40,25 @@ public class Items extends RecyclerView.Adapter<recycler> {
 
 class recycler extends RecyclerView.ViewHolder{
     TextView textView;
+    TextView generator;
     private Items adapter;
 
     public recycler(@NonNull View itemView) {
         super(itemView);
 
         textView = itemView.findViewById(R.id.text);
+        generator = itemView.findViewById(R.id.password);
+
+        //generate
+        itemView.findViewById(R.id.generate).setOnClickListener(view -> {
+            RandomGen random = new RandomGen();
+            String newPass = random.generateRandom();
+            generator.setText(newPass);
+        });
+
+        //checkhealth
+
+        //delete
         itemView.findViewById(R.id.delete).setOnClickListener(view -> {
             adapter.items.remove(getAdapterPosition());
             adapter.notifyItemRemoved(getAdapterPosition());

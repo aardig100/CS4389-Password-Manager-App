@@ -8,6 +8,11 @@ public class RandomGen {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 
+        System.out.println(generateRandom());
+    }
+
+    public static String generateRandom() {
+
         ArrayList<String> charGroup = new ArrayList<>();
         charGroup.add(0, "abcdefghijklmnopqrstuvxyz");
         charGroup.add(1, "ABCDEFGHIJKLMNOPQRSTUVXYZ");
@@ -16,27 +21,22 @@ public class RandomGen {
 
         int passwordLength = 24; //If this value is already set somewhere else in
         //the app, pull it/call it from that somewhere else
-        StringBuilder passwdStr = new StringBuilder();
-
-
-        int[] checkPlace = new int[passwordLength];
+        String passwdStr = "";
 
         for (int i = 0; i < passwordLength; i++) {
 
             //Pick a random character group
             String randGroup = charGroup.get(randomNum(charGroup.size()));
-            System.out.println("randGroup: " + randGroup);
+
 
             //Pick a random character from the random character group
             char randChar = randGroup.charAt(randomNum(randGroup.length()));
-            System.out.println("randChar: " + randChar);
 
-            passwdStr.append(randChar);
+
+            passwdStr = passwdStr + randChar;
         }
 
-        // passwdStr is the randomized password. Use that variable for the app
-
-
+        return passwdStr;
     }
 
     public static int randomNum(int upperBound) {
