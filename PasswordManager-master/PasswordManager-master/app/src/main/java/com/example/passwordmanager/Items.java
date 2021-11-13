@@ -41,6 +41,7 @@ public class Items extends RecyclerView.Adapter<recycler> {
 class recycler extends RecyclerView.ViewHolder{
     TextView textView;
     TextView generator;
+    TextView healthCheck;
     private Items adapter;
 
     public recycler(@NonNull View itemView) {
@@ -48,6 +49,7 @@ class recycler extends RecyclerView.ViewHolder{
 
         textView = itemView.findViewById(R.id.text);
         generator = itemView.findViewById(R.id.password);
+        healthCheck = itemView.findViewById(R.id.healthText);
 
         //generate
         itemView.findViewById(R.id.generate).setOnClickListener(view -> {
@@ -57,6 +59,12 @@ class recycler extends RecyclerView.ViewHolder{
         });
 
         //checkhealth
+        itemView.findViewById(R.id.health).setOnClickListener(view -> {
+            healthScore h = new healthScore();
+            String s = "Ferr@rizzz";
+            String h2 = h.calculateHealth(s);
+            healthCheck.setText(h2);
+        });
 
         //delete
         itemView.findViewById(R.id.delete).setOnClickListener(view -> {

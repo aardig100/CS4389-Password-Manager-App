@@ -2044,6 +2044,7 @@ id groups
 id guideline
 id header_title
 id health
+id healthText
 id hideable
 id home
 id homeAsUp
