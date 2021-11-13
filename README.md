@@ -6,7 +6,7 @@ Created using the latest version of Android Studio API 17
 
 
 
-To run download Passw0rdP1.apk file and launch it on an android device or emulator.
+To run download Passw0rdP1z.apk file and launch it on an android device or emulator.
 
 The Master Project can be opened using android studio.
 
