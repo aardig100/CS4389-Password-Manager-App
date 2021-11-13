@@ -65,6 +65,7 @@ class recycler extends RecyclerView.ViewHolder{
         itemView.findViewById(R.id.delete).setOnClickListener(view -> {
             adapter.items.remove(getAdapterPosition());
             adapter.notifyItemRemoved(getAdapterPosition());
+            textViewPassword.setText("password");
         });
     }
 
